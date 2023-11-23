@@ -36,3 +36,11 @@ main {
 	height: 240px;
 }
 
+mainImg{
+	position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 528px;
+}
+
+
