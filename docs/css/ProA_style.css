@@ -1,5 +1,5 @@
 /* ページ全体の背景色などを設定 */
-main {
+body{
 	background: #CDE6C7;
 }
 
