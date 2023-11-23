@@ -3,6 +3,12 @@ main {
 	background: #CDE6C7;
 }
 
+.mainIMG{	
+	width:250px;
+	height: 240px:;
+}
+
+
 /* ページの見出し領域の背景色，画像などを設定（id属性で設定） */
 /* 画像のファイルへのパスはこのCSSファイルのあるフォルダから見て，どこにあるかの相対パスとなる */
 #bg-head {
@@ -36,7 +42,4 @@ main {
 	height: 240px;
 }
 
-img {	width:250px;
-	border-radius: 10px;
-}
 
