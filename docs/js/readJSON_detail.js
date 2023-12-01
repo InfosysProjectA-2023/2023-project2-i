@@ -58,8 +58,8 @@ window.onload = function onLoad() {
 						thumnail_img.setAttribute("src","./photos/"+obj.image_file+"_thum.jpg");
 					}
 
-					let abstract_text = document.getElementById("abstract1");
-					if(abstract_text != null){ //<p id="abstract-1"></p>のタグがあったら
+					let abstract_text = document.getElementById("abstract");
+					if(abstract_text != null){ //<p id="abstract"></p>のタグがあったら
 						abstract_text.innerText = obj.abstract; //abstract（DBではカラム）の値に内容のテキストを変更
 					}
 
