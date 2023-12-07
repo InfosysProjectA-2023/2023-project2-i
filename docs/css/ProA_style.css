@@ -5,9 +5,9 @@ main{
 
 
 
-div.besuto {
-width:200px; height:100px;
-margin:5px; padding:10px; border:1px solid black;
+.boxes {
+max-width:400px;
+margin:20px 
 background-color:lightgray;
 }
 
