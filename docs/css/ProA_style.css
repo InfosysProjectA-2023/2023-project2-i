@@ -3,10 +3,7 @@ main{
 	background: #CDE6C7;
 }
 
-li{
-	list-style:none;
-	display:flex;
-}
+
 
 div.besuto {
 width:200px; height:100px;
