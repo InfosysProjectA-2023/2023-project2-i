@@ -7,9 +7,16 @@ main{
 
 .boxes {
 max-width:400px;
-margin:20px 
+margin:20px ;
 background-color:lightgray;
 }
+
+.box{
+	width:100px;
+	height:100px;
+	float: left;
+}
+
 
 /* ページの見出し領域の背景色，画像などを設定（id属性で設定） */
 /* 画像のファイルへのパスはこのCSSファイルのあるフォルダから見て，どこにあるかの相対パスとなる */
