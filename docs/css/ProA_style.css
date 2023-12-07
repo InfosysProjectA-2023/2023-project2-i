@@ -8,6 +8,12 @@ li{
 	display:flex;
 }
 
+div.besuto {
+width:200px; height:100px;
+margin:5px; padding:10px; border:1px solid black;
+background-color:lightgray;
+}
+
 /* ページの見出し領域の背景色，画像などを設定（id属性で設定） */
 /* 画像のファイルへのパスはこのCSSファイルのあるフォルダから見て，どこにあるかの相対パスとなる */
 #bg-head {
