@@ -1,7 +1,6 @@
 { "introduction_obj_list": 
 	[
 		{ "title" : "湘南台駅周辺の老人ホーム",
-			"id" : 0,
 			"image_file" : "thumnail_sample_300",
 			"abstract" : "文教大学湘南キャンパスです．",
 			"score" : 4.6,
@@ -10,15 +9,15 @@
 			"lat" :	"35.370173",
 			"lng" : "139.415208",
 			"detail" :"湘南台駅周辺の老人ホームを紹介します<br/>各施設の詳しい情報をご覧ください！<br/>"
-			"jusyo" : "",
+			
 			"event" : "",
 			"syosai_detail" : ""
 			
 		},
-		{ "title" : "2つめの詳細ページ",
-			"id" : 1,
+		{ "title" : "ベストライフ湘南台",
 			"image_file" : "thumnail_sample_300",
-			"abstract" : "2つめの詳細ページです．",
+			"jusyo" : "住所：〒252-0804　神奈川県藤沢市湘南台1-1-8",
+			"abstract" : "駅から徒歩3分の距離にある老人ホームです。<br/>様々なイベントがあり、過去にはマグロの解体ショーや納涼祭などが行われています。<br/>",
 			"score" : 4.0,
 			"image_file1" : "img101",
 			"image_file2" :	"img102",
