@@ -73,6 +73,12 @@ window.onload = function onLoad() {
 						detail_text.innerHTML = obj.detail; //detail（DBではカラム）の値に内容のHTMLを変更
 					}
 
+					let jusyo_text = document.getElementById("jusyo");
+					if(detail_text != null){//<p id="jusyo"></p>のタグがあったら
+						jusyo_text.innerHTML = obj.jusyo; //jusyo（DBではカラム）の値に内容のHTMLを変更
+					}
+
+
 					let image_list = document.getElementById("image_list");
 					if(image_list){//<div id="image_list">のタグがあったら
 						image_list.innerHTML = ""; //id=image_listのタグの中のHTMLを空にする
