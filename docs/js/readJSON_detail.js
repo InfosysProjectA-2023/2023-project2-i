@@ -27,7 +27,7 @@ window.onload = function onLoad() {
 			}
 		}
 
-		const fetch_json = async (data.json) => {//urlの文字列のURLからidまたはqで指定した値を持つJSONオブジェクトを取得
+		const fetch_json = async (url) => {//urlの文字列のURLからidまたはqで指定した値を持つJSONオブジェクトを取得
 			const response = await fetch(url);
 			if (response.ok) {
 				const data = await response.json();
