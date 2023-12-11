@@ -5,6 +5,8 @@ main{
 
 h1{font-family: 'Anton', sans-serif;}
 
+li{list-style: none;}
+
 .boxes {
 max-width:400px;
 margin:20px ;
