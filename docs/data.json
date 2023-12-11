@@ -9,13 +9,13 @@
 			"lat" :	"35.370173",
 			"lng" : "139.415208",
 			"detail" :"湘南台駅周辺の老人ホームを紹介します<br/>各施設の詳しい情報をご覧ください！<br/>"
-			"detail_besuto_ti":"ベストライフ湘南台",
+			"card-title-best":"ベストライフ湘南台",
 			"detail_besuto":"湘南台駅から徒歩3分",
-			"detail_bonse_ti":"ボンセジュール湘南台",
+			"card-title-bonse":"ボンセジュール湘南台",
 			"detail_bonse":"湘南台駅から徒歩6分",
-			"detail_katorea_ti":"カトレアホーム",
+			"dcard-title-kato":"カトレアホーム",
 			"detail_katorea":"文教大学バス停から徒歩6分",
-			"detail_fureai_ti":"ふれあいの森",
+			"card-title-fere":"ふれあいの森",
 			"detail_fureai":"大和駅から徒歩12分",	
 		},
 	]
