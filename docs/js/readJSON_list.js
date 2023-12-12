@@ -69,4 +69,4 @@
 			list_container_row.innerHTML += item_html;//生成したHTMLを<div id="main_content">～</div>間に追加
 			num++;
 		}
-	};
+	});
