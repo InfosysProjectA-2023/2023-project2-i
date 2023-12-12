@@ -13,7 +13,8 @@ window.onload = function onLoad() {
 
 		//const json_url = "https://athena.abe-lab.jp/~hidenao/ProA_2023/Project1_example/data.json";
 		// data.jsonでの動作が確認できたら，↑の行をコメント（//を先頭に付ける）して，↓の行のコメント//を外す
-		const json_url = "https://infosysprojecta-2023/project1-2023-i/docs/data.json";
+		const json_url = "https://infosysprojecta-2023.github.io/2023-project2-i/data.json";
+
 
 		var id = 0;
 		let obj_id = document.getElementById("obj_id"); //紹介対象idを表す<input type="hidden" id="obj_id" value="0">があったら
@@ -63,9 +64,9 @@ window.onload = function onLoad() {
 						abstract_text.innerText = obj.abstract; //abstract（DBではカラム）の値に内容のテキストを変更
 					}
 
-					let abstract_text = document.getElementById("abstract2");
-					if(abstract_text != null){ //<p id="abstract-2"></p>のタグがあったら
-						abstract_text.innerText = obj.abstract; //abstract（DBではカラム）の値に内容のテキストを変更
+					let abstract_text = document.getElementById("abstract_2");
+					if(abstract_text != null){ //<p id="abstract_2"></p>のタグがあったら
+						abstract_text.innerText = obj.abstract_2; //abstract（DBではカラム）の値に内容のテキストを変更
 					}
 
 					let detail_text = document.getElementById("detail");
@@ -74,7 +75,7 @@ window.onload = function onLoad() {
 					}
 
 					let jusyo_text = document.getElementById("jusyo");
-					if(detail_text != null){//<p id="jusyo"></p>のタグがあったら
+					if(jusyo_text != null){//<p id="jusyo"></p>のタグがあったら
 						jusyo_text.innerHTML = obj.jusyo; //jusyo（DBではカラム）の値に内容のHTMLを変更
 					}
 
