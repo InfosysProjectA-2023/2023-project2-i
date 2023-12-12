@@ -73,7 +73,7 @@ window.onload = function onLoad() {
 					if(detail_text != null){//<p id="detail"></p>のタグがあったら
 						detail_text.innerHTML = obj.detail; //detail（DBではカラム）の値に内容のHTMLを変更
 					}
-
+					
 					let jusyo_text = document.getElementById("jusyo");
 					if(jusyo_text != null){//<p id="jusyo"></p>のタグがあったら
 						jusyo_text.innerHTML = obj.jusyo; //jusyo（DBではカラム）の値に内容のHTMLを変更
