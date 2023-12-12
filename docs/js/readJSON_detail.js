@@ -64,10 +64,6 @@ window.onload = function onLoad() {
 						abstract_text.innerText = obj.abstract; //abstract（DBではカラム）の値に内容のテキストを変更
 					}
 
-					let abstract_text = document.getElementById("abstract_2");
-					if(abstract_text != null){ //<p id="abstract_2"></p>のタグがあったら
-						abstract_text.innerText = obj.abstract_2; //abstract（DBではカラム）の値に内容のテキストを変更
-					}
 
 					let detail_text = document.getElementById("detail");
 					if(detail_text != null){//<p id="detail"></p>のタグがあったら
