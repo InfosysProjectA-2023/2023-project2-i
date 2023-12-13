@@ -14,7 +14,8 @@ li{list-style: none;}
 
 /*  */
 .kihon{font-size:30;
-	
+       padding: 1rem 2rem;
+       background: #F6F7F8;	
 }
 /* 施設名のデザイン */
 .title {
