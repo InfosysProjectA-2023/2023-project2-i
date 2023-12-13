@@ -17,14 +17,14 @@ li{list-style: none;}
 }
 
 /*基本情報と詳細のデザイン  */
-h5 {
+.jouhou {
   position: relative;
   text-align: center;
   border: 2px solid #000;
   background: #fff;	
 }
 
-h5:before,
+.jouhou:before,
 h5:after {
   position: absolute;
   content: '';
