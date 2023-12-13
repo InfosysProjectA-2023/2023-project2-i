@@ -6,6 +6,11 @@ main{
 h1{font-family: 'Anton', sans-serif;
   }
 
+/* トップページの詳細はこちらのデザイン */
+.sabu{font-size:30;
+	
+}
+
 /* 住所、電話番号のデザイン */
 .jusyo {
   padding: 1rem 2rem;
