@@ -16,17 +16,6 @@ h1{font-family: 'Anton', sans-serif;
   border-bottom: 2px dashed #fff;
 }
 
-/* トップページの詳細はこちらのデザイン */
-.sabu {
-  /*線の種類（二重線）太さ 色*/
-  border-bottom: double 5px #FFC778;
-}
-.sabu p{
-	margin: 10px 50px;
-	
-}
-.p{font-size: 20px;}
-
 /* カードの施設名 */
 h5{
 	font-size: 20px;
