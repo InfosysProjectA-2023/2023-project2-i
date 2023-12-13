@@ -85,8 +85,11 @@ h6{
   border: 4px solid #000;
 }
 
-
-
+/* 写真のデザイン */
+.gazou{
+	width: 50%;
+	height: 50%;
+}
 
 .boxes {
 max-width:400px;
@@ -128,10 +131,14 @@ lead{font-size: 40px;
 	box-shadow: 2px 2px 4px gray; /*影の幅 右 下　ぼかしの幅　影の色(カラーコードも可） */
 }
 
+/* 写真の設定 */
+#thumnail_img{
+    float: right;
+}
+
 /* 地図の表示領域の設定 */
 #map_here{
-	float: right;
-	clear: right;
+	text-align: center;
 	width: 340px;
 	height: 240px;
 }
