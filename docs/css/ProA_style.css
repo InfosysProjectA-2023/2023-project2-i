@@ -27,7 +27,7 @@ li{list-style: none;}
 
 /*基本情報と詳細のデザイン  */
 .box1{
-  margin: 50px 50px;
+  margin: 20px 50px;
   background: #dfefff;
   box-shadow: 0px 0px 0px 5px #dfefff;
   border: dashed 2px white;
