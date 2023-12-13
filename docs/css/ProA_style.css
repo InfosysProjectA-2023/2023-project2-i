@@ -5,7 +5,7 @@ main{
 
 h1{font-family: 'Anton', sans-serif;}
 /* 住所、電話番号のデザイン */
-h2 {
+.jusyo {
   padding: 1rem 2rem;
   border-left: 6px double #000;
 }
