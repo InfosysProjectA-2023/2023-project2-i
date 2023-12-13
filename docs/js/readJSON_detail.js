@@ -75,6 +75,10 @@ window.onload = function onLoad() {
 						jusyo_text.innerHTML = obj.jusyo; //jusyo（DBではカラム）の値に内容のHTMLを変更
 					}
 
+					let jusyo_text = document.getElementById("ive");
+					if(ive_text != null){//<p id="ive"></p>のタグがあったら
+						ive_text.innerHTML = obj.ive; //ive（DBではカラム）の値に内容のHTMLを変更
+					}
 
 					let image_list = document.getElementById("image_list");
 					if(image_list){//<div id="image_list">のタグがあったら
