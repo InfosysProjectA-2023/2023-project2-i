@@ -72,18 +72,10 @@ lead{font-size: 40px;
 
 /* 地図の表示領域の設定 */
 #map_here{
-	float: left;
-	clear: left;
+	float: right;
+	clear: right;
 	width: 340px;
 	height: 240px;
-}
-
-/* 地図の表示領域の設定 */
-#map_here {
-    float: right;
-    clear: right;
-    width: 340px;
-    height: 240px;
 }
 
 
