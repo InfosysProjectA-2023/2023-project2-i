@@ -80,6 +80,26 @@ window.onload = function onLoad() {
 						ive_text.innerHTML = obj.ive; //ive（DBではカラム）の値に内容のHTMLを変更
 					}
 
+					let hiyou_text = document.getElementById(" hiyou");
+					if( hiyou_text != null){//<p id=" hiyou"></p>のタグがあったら
+						 hiyou_text.innerHTML = obj. hiyou; // hiyou（DBではカラム）の値に内容のHTMLを変更
+					}
+
+					let age_text = document.getElementById("age");
+					if(age_text != null){//<p id="age"></p>のタグがあったら
+						age_text.innerHTML = obj.age; //age（DBではカラム）の値に内容のHTMLを変更
+					}
+
+					let ninzuu_text = document.getElementById("ninzuu");
+					if(ninzuu_text != null){//<p id="ninzuu"></p>のタグがあったら
+						ninzuu_text.innerHTML = obj.ninzuu; //ninzuu（DBではカラム）の値に内容のHTMLを変更
+					}
+
+					let heya_text = document.getElementById("heya");
+					if(heya_text != null){//<p id="heya"></p>のタグがあったら
+						heya_text.innerHTML = obj.heya; //heya（DBではカラム）の値に内容のHTMLを変更
+					}
+
 					let image_list = document.getElementById("image_list");
 					if(image_list){//<div id="image_list">のタグがあったら
 						image_list.innerHTML = ""; //id=image_listのタグの中のHTMLを空にする
