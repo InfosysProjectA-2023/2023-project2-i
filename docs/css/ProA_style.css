@@ -25,12 +25,12 @@ li{list-style: none;}
 }
 
 .jouhou:before,
-h5:after {
+.jouhou:after {
   position: absolute;
   content: '';
 }
 
-h5:before {
+.jouhou:before {
   top: -40px;
   left: calc(50% - 40px);
   width: 80px;
@@ -40,7 +40,7 @@ h5:before {
   background: #fff;
 }
 
-h5:after {
+.jouhou:after {
   top: 4px;
   left: 4px;
   width: calc(100% - 8px);
@@ -49,7 +49,7 @@ h5:after {
   background: #fff;
 }
 
-h5 i {
+.jouhou i {
   font-size: 24px;
   font-size: 2.4rem;
   line-height: 60px;
@@ -62,20 +62,20 @@ h5 i {
   text-align: center;
 }
 
-h5 span {
+.jouhou span {
   position: relative;
   z-index: 1;
   display: block;
   padding: 1.5rem;
 }
 
-h5 span:before,
-h5 span:after {
+.jouhouspan:before,
+.jouhou span:after {
   position: absolute;
   content: '';
 }
 
-h5 span:before {
+.jouhou span:before {
   top: -34px;
   left: calc(50% - 34px);
   width: 68px;
@@ -84,7 +84,7 @@ h5 span:before {
   border-radius: 50vw 50vw 0 0;
 }
 
-h5 span:after {
+.jouhou span:after {
   position: absolute;
   top: 4px;
   left: calc(50% - 32px);
