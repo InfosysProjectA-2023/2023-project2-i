@@ -14,7 +14,9 @@ h1{font-family: 'Anton', sans-serif;
 /* 住所、電話番号のデザイン */
 .jusyo {
   padding: 1rem 2rem;
+  margin:auto;
   border-left: 6px double #000;
+
 }
 /*  */
 li{list-style: none;}
@@ -29,6 +31,7 @@ li{list-style: none;}
   box-shadow: 0px 0px 0px 5px #dfefff;
   border: dashed 2px white;
   padding: 0.2em 0.5em;
+  margin:auto;
 }
 
 /*イベントのデザイン  */
@@ -37,6 +40,7 @@ li{list-style: none;}
   box-shadow: 0px 0px 0px 5px #dfefff;
   border: dashed 2px white;
   padding: 0.2em 0.5em;
+  margin:auto;
 }
 
 /* 施設名のデザイン */
