@@ -17,82 +17,24 @@ li{list-style: none;}
 }
 
 /*基本情報と詳細のデザイン  */
-.jouhou {
+.jouhou{
   position: relative;
-  text-align: center;
-  border: 2px solid #000;
-  background: #fff;	
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
 }
-
-.jouhou:before,
-.jouhou:after {
+h1:after {
   position: absolute;
   content: '';
+  left: -7px;
+  top: -7px;
+  border-width: 0 0 15px 15px;
+  border-style: solid;
+  border-color: #fff #fff #a8d4ff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
-
-.jouhou:before {
-  top: -40px;
-  left: calc(50% - 40px);
-  width: 80px;
-  height: 80px;
-  border: 2px solid #000;
-  border-radius: 50%;
-  background: #fff;
-}
-
-.jouhou:after {
-  top: 4px;
-  left: 4px;
-  width: calc(100% - 8px);
-  height: calc(100% - 8px);
-  border: 2px dashed #000;
-  background: #fff;
-}
-
-.jouhou i {
-  font-size: 24px;
-  font-size: 2.4rem;
-  line-height: 60px;
-  position: absolute;
-  z-index: 2;
-  top: -40px;
-  left: calc(50% - 40px);
-  width: 80px;
-  height: 60px;
-  text-align: center;
-}
-
-.jouhou span {
-  position: relative;
-  z-index: 1;
-  display: block;
-  padding: 1.5rem;
-}
-
-.jouhouspan:before,
-.jouhou span:after {
-  position: absolute;
-  content: '';
-}
-
-.jouhou span:before {
-  top: -34px;
-  left: calc(50% - 34px);
-  width: 68px;
-  height: 40px;
-  border: 2px dashed #000;
-  border-radius: 50vw 50vw 0 0;
-}
-
-.jouhou span:after {
-  position: absolute;
-  top: 4px;
-  left: calc(50% - 32px);
-  width: 64px;
-  height: 10px;
-  background: #fff;
-}
-
 /* 施設名のデザイン */
 .title {
   position: relative;
