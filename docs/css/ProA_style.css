@@ -39,7 +39,7 @@ li{list-style: none;}
 .box2{
   margin: 50px 50px;
   background: #FFEDB3;
-  box-shadow: 0px 0px 0px 5px #dfefff;
+  box-shadow: 0px 0px 0px 5px #FFEDB3;
   border: dashed 2px white;
   padding: 0.2em 0.5em;
 }
