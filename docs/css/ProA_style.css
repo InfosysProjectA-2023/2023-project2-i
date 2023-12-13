@@ -12,11 +12,17 @@ h1{font-family: 'Anton', sans-serif;}
 /*  */
 li{list-style: none;}
 
-/*  */
+/*基本情報のデザイン  */
 .kihon{font-size:30;
        padding: 1rem 2rem;
        background: #F6F7F8;	
 }
+
+/*基本情報と詳細のデザイン  */
+.jouhou{
+	
+}
+
 /* 施設名のデザイン */
 .title {
   position: relative;
