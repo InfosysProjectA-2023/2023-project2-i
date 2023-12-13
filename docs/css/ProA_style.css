@@ -7,6 +7,9 @@ h1{font-family: 'Anton', sans-serif;}
 
 li{list-style: none;}
 
+/* 施設名のデザイン */
+.title
+
 .boxes {
 max-width:400px;
 margin:20px ;
