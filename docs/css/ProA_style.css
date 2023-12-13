@@ -5,6 +5,11 @@ main{
 
 h1{font-family: 'Anton', sans-serif;}
 
+h2 {
+  padding: 1rem 2rem;
+  border-left: 6px double #000;
+}
+
 li{list-style: none;}
 
 /* 施設名のデザイン */
