@@ -16,6 +16,9 @@ h1{font-family: 'Anton', sans-serif;
   border-bottom: 2px dashed #fff;
 }
 
+h7{
+	font-size: 20px;
+}
 /* カードの施設名 */
 h5{
 	font-size: 20px;
