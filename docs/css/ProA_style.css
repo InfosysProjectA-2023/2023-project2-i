@@ -53,9 +53,15 @@ h1:after {
 }
 
 /*写真*/
+
+.center{
+	margin: 0 auto;
+}
+
 #thumnail_img{
     float: right;
 }
+
 
 .boxes {
 max-width:400px;
