@@ -40,7 +40,9 @@ li{list-style: none;}
 
 /*基本情報と詳細のデザイン  */
 .box1{
-  margin: 50px 50px;  
+  margin: 50px 50px; 
+  text-align:center;
+  padding:20px 0;
   background: #dfefff;
   box-shadow: 0px 0px 0px 5px #dfefff;
   border: dashed 2px white;
@@ -58,11 +60,12 @@ h6{
 
 /*イベントのデザイン  */
 .box2{
+ text-align:center;
+  padding:20px 0;
   margin: 50px 50px;      
   background: #FFEDB3;
   box-shadow: 0px 0px 0px 5px #FFEDB3;
   border: dashed 2px white;
-  padding: 0.2em 0.5em;
 }
 
 /* 施設名のデザイン */
