@@ -39,7 +39,7 @@ background-color:lightgray;
 .box{
 	width:100px;
 	height:100px;
-	float: right;
+	float: left;
 }
 
 lead{font-size: 40px;
