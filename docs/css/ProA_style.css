@@ -31,7 +31,7 @@ background-color:lightgray;
 .box{
 	width:100px;
 	height:100px;
-	float: left;
+	float: right;
 }
 
 lead{font-size: 40px;
