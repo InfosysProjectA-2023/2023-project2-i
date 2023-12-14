@@ -80,7 +80,7 @@ window.onload = function onLoad() {
 						ive_text.innerHTML = obj.ive; //ive（DBではカラム）の値に内容のHTMLを変更
 					}
 
-					let hiyou_text = document.getElementById(" hiyou");
+					let hiyou_text = document.getElementById("hiyou");
 					if( hiyou_text != null){//<p id=" hiyou"></p>のタグがあったら
 						 hiyou_text.innerHTML = obj. hiyou; // hiyou（DBではカラム）の値に内容のHTMLを変更
 					}
